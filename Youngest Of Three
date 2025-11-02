@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+    int r,s,a;// r=ram s=shyam a=ajay
+    printf("enter 1st age");
+    scanf("%d",&r);
+    printf("enter 2nd age");
+    scanf("%d",&s);
+    printf("enter 3rd age");
+    scanf("%d",&a);
+    
+   if(r<s && r<a){
+        printf("r is youngest");
+    }
+    if(s<r && s<a){
+        printf("s is youngest");
+    }
+    if(a<r && a<s){
+        printf("a is youngest");
+    }
+    return 0;
+}
